@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MajorParallelExecutionSuite">
+  <test thread-count="5" parallel="classes" name="MajorRegressionTest">
+    <classes>
+      <class name="testNG.DifferentKeywordsInTestNG"/>
+      <class name="testNG.TestNGFirstScript"/>
+      <class name="testNG.AnnotationsSequenceOfExecution"/>
+      <class name="testNG.AssertionConcept"/>
+      <class name="testNG.DataDrivenWithTestNG"/>
+    </classes>
+  </test> <!-- MajorRegressionTest -->
+</suite> <!-- MajorParallelExecutionSuite -->

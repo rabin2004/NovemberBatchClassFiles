@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="PkgLevelSuite">
+  <test thread-count="5" name="MajorRegressionTest">
+    <packages>
+      <package name="testNG"/>
+      <package name="oOPSconcept"/>
+      <package name="testingJava"/>
+      <package name="selenium"/>
+      <package name="testingPack"/>
+    </packages>
+  </test> <!-- MajorRegressionTest -->
+</suite> <!-- PkgLevelSuite -->
